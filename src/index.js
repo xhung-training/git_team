@@ -11,6 +11,10 @@ app.get('/test', function (req, res) {
 })
 
 app.get('/test2', function (req, res) {
+    res.send("test2")
+})
+
+app.get('/test3', function (req, res) {
     res.send("test3")
 })
 
